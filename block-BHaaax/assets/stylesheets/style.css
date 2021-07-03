@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,41 +50,87 @@ table {
 {
     box-sizing: border-box;
 }
-h1
+body
 {
-   font-size: 32px;
-   padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    
 }
 .header
 {
-    background-color: aquamarine;
+    font-size: 0;
+    background-color:aquamarine;
+    padding: 16px 0;
 }
-ul{
-    text-align: right;
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
 }
-nav ul li {
+/* header */
+.brand img{
+    width: 120px;
+}
+.brand,.nav
+{
     display: inline-block;
-    list-style: none;
-    padding: 10px;
+    vertical-align:middle;
 }
-a{
+.nav{
+width:calc(100% - 180px);
+font-size: 16px;
+text-align: right;
+}
+.nav a{
+    font-size: 20px;
     text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 32px;
+    color: darkblue;
 }
-.col1
+.article
 {
-    width:50%;
-    background-color: blue;
-    display: inline-block;
+ font-size: 0;
+ padding: 60px 0;
 }
-.col2
+.article-img
 {
-    width:48%;
-    background-color: brown;
+width:100%;
+}
+.col
+{
     display: inline-block;
+    width: 50%;
+    font-size: 20px;
+    vertical-align: top;
+}
+.aricle-heading
+{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.article-text
+{
+    font-size: 20px;
+    line-height: 1.7;
+}
+.article-col
+{
+    padding-right: 32px;
+}
+/* footer */
+.footer
+{
+    text-align: center;
+    padding: 32px 0;
+    background-color: gray;
+}
+.footer a{
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: chartreuse;
 
 }
-.footer{
-    background-color: #9090e8;
-    text-align: center;
-    padding: 20px;
-}
+

@@ -228,6 +228,11 @@ hr
     padding: 60px 0;
     font-size: 20px;
 }
+footer small
+{
+    color: grey;
+    font-size: 17px;
+}
 .nav{
     float: right;
 }
